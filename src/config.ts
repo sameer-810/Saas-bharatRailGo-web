@@ -1,9 +1,9 @@
 /** Site configuration — set via VITE_* env vars at build time (see .env.example). */
 const env = import.meta.env;
 
-export const APP_URL = (env.VITE_APP_URL || "http://localhost:8081").replace(/\/+$/, "");
+export const APP_URL = (env.VITE_APP_URL || "https://saas-bharatrailgo-front.vercel.app").replace(/\/+$/, "");
 export const API_URL = (env.VITE_API_URL || "http://localhost:5001/api").replace(/\/+$/, "");
-export const SITE_URL = (env.VITE_SITE_URL || "https://bharatrailgo.in").replace(/\/+$/, "");
+export const SITE_URL = (env.VITE_SITE_URL || "https://saas-bharat-rail-go-web.vercel.app").replace(/\/+$/, "");
 // Placeholder — replace with the real support address before launch.
 export const CONTACT_EMAIL = env.VITE_CONTACT_EMAIL || "hello@bharatrailgo.in";
 /** Named in the Privacy Policy (DPDP Act 2023). */
