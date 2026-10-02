@@ -6,11 +6,11 @@ export function Privacy() {
     <main className="legal" data-testid="privacy">
       <a href="#/" className="small">← Back</a>
       <h1>Privacy Policy</h1>
-      <p className="muted small">Last updated: 24 September 2026</p>
+      <p className="muted small">Last updated: 2 October 2026</p>
       <h2>What we collect</h2>
       <p>
         Your account details (name, email, mobile), your agency&apos;s business details (name, GSTIN, addresses) and the business
-        records you enter: parties, bookings, bilti, invoices and payments. We keep basic technical logs (IP address, device,
+        records you enter: parties, bookings, bilti, invoices and payments, plus the logo you upload. We keep basic technical logs (IP address, device,
         time) for security.
       </p>
       <h2>How we use it</h2>
@@ -66,7 +66,7 @@ export function Terms() {
     <main className="legal" data-testid="terms">
       <a href="#/" className="small">← Back</a>
       <h1>Terms of Service</h1>
-      <p className="muted small">Last updated: 24 September 2026</p>
+      <p className="muted small">Last updated: 2 October 2026</p>
       <h2>The service</h2>
       <p>
         BharatRailGo provides online software for parcel booking agents. You are responsible for the accuracy of the records you
